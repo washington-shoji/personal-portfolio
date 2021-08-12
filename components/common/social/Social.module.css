@@ -1,0 +1,26 @@
+.socialContact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialIconDiv {
+	padding: 6px;
+	cursor: pointer;
+	margin: 6px;
+}
+
+.socialIcon {
+	font-size: 40px;
+	color: aquamarine;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 720px) {
+	.socialContact {
+		margin-top: 42px;
+	}
+	.socialIcon {
+		height: 32px;
+	}
+}

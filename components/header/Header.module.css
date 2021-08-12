@@ -1,0 +1,112 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+	padding: 12px;
+	position: relative;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.web {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.webMenuOptions {
+	font-size: 20px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.webMenuOptions a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	align-items: center;
+}
+
+.webMenu {
+	display: flex;
+}
+
+.webMenuOptions :last-child {
+	margin-right: 0px;
+}
+
+.menuIcon {
+	font-size: 24px;
+	color: darkseagreen;
+}
+
+.closeMenuIcon {
+	display: flex;
+	justify-items: flex-end;
+	font-size: 24px;
+	color: darkseagreen;
+}
+
+.mobile {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	position: absolute;
+	right: 0;
+	top: -6px;
+	padding: 18px 12px;
+	background-color: darkslateblue;
+}
+
+.mobileMenu {
+	display: none;
+}
+
+.mobileMenuOptions {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 24px;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100%;
+}
+.mobileMenuOption {
+	display: flex;
+	font-size: 24px;
+	margin: 12px 0px;
+}
+
+.mobileMenuOption a {
+	display: flex;
+	text-decoration: none;
+	color: black;
+}
+
+.logo {
+	display: flex;
+	font-size: 26px;
+	color: black;
+	font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+	.mobileMenu {
+		display: flex;
+	}
+
+	.webMenu {
+		display: none;
+	}
+	.logo {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,72 @@
+.work {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.sectionTitle {
+	font-size: 32px;
+	font-weight: 700;
+}
+.workList {
+	display: block;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 24px 0px;
+}
+
+/*This is the Work Card CSS starts*/
+.workCard {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+	padding: 8px;
+	width: 85%;
+	margin-top: 16px;
+}
+
+.workLogo {
+	height: 80px;
+}
+
+.workInfo {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.workDesignation {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.workCompanyName {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 12px 0px;
+}
+
+.workDates {
+	font-size: 18px;
+	color: gray;
+}
+
+.workDescription {
+	text-align: left;
+	display: -webkit-box; /* info from stack overflow */
+	-webkit-line-clamp: 6; /* number of lines to show */
+	-webkit-box-orient: vertical; /* orientation */
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 80%;
+}
+
+/*This is the Work Card CSS ends*/
+
+@media only screen and (max-width: 720px) {
+	.workCard {
+		width: 100%;
+	}
+}

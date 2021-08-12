@@ -1,0 +1,46 @@
+.hero {
+	padding-bottom: 48px;
+	height: 35vh;
+}
+
+.heroTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heroPhotoImage {
+	height: 420px;
+	z-index: -1;
+}
+
+.heroInfo {
+	width: 50%;
+	font-size: 26px;
+	line-height: 42px;
+}
+
+.heroName {
+	color: #008cd5;
+	font-size: 28px;
+}
+
+@media only screen and (max-width: 720px) {
+	.heroTop {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.heroPhotoImage {
+		height: 280px;
+	}
+
+	.heroInfo {
+		font-size: 20px;
+	}
+
+	.heroName {
+		font-size: 26px;
+	}
+}
