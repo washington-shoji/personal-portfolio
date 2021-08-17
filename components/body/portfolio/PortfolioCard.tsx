@@ -1,8 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import React, {FC} from 'react';
 import Image from 'next/image';
 
 import styles from './Portfolio.module.css';
 import {PortfolioProject} from './../../../data/portfolio';
+
+import image from '../../../public/temp.jpg';
 
 interface Props {
 	project: PortfolioProject;
@@ -15,13 +18,18 @@ const PortfolioCard: FC<Props> = ({project}) => {
 				<h1>{project.title}</h1>
 				<p>{project.subtitle}</p>
 			</div>
-			<Image
+			<img
 				className={styles.portfolioBoxImage}
 				src={project.image}
 				alt='projects'
-				objectFit={'fill'}
-				layout={'responsive'}
 			/>
+			{/* <Image
+				className={styles.portfolioBoxImage}
+				src={image}
+				alt='projects'
+				layout={'fill'}
+				objectFit={'cover'}
+			/> */}
 		</div>
 	);
 };

@@ -13,7 +13,7 @@ export const projectData: Array<Project> = [
     description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
     It has roots in a piece of classical Latin literature from 45 BC,
     making it over 2000 years old.`,
-    image: require('/public/temp.jpg')
+    image: '/temp.jpg'
     },
     {
     id: 2,
@@ -21,7 +21,7 @@ export const projectData: Array<Project> = [
     description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
     It has roots in a piece of classical Latin literature from 45 BC,
     making it over 2000 years old.`,
-    image: require('/public/temp.jpg')
+    image: '/temp.jpg'
     },
     {
     id: 3,
@@ -29,6 +29,6 @@ export const projectData: Array<Project> = [
     description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
     It has roots in a piece of classical Latin literature from 45 BC,
     making it over 2000 years old.`,
-    image: require('/public/temp.jpg')
+    image: '/temp.jpg'
     },
 ]
