@@ -1,0 +1,51 @@
+.contactButtonContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactButtonContainer h1 {
+	font-size: 2rem;
+	color: #1e1e1e;
+	font-family: calibre;
+	margin: 10px;
+	padding: 5px;
+	letter-spacing: 4px;
+	border-bottom: 2px solid #1e1e1e;
+}
+
+.contactButtonContainer a {
+	color: #ffffff;
+	font-size: 1rem;
+	font-family: calibre;
+	width: 150px;
+	height: 40px;
+	margin: 10px;
+	background-color: #1e1e1e;
+	box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactButtonContainer a:hover {
+	background-color: #ffc401;
+	color: #000000;
+	transition: all ease 0.5s;
+	font-weight: 700;
+}
+
+@media (max-width: 900px) {
+	.contactButtonContainer h1 {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.contactButtonContainer h1 {
+		font-size: 1.2rem;
+		margin: 0px 10%;
+	}
+}

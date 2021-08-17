@@ -1,0 +1,72 @@
+.aboutText {
+	font-family: calibre;
+	width: 50%;
+}
+
+.aboutText h1 {
+	font-size: 5rem;
+	color: var(--text-primary);
+	/* color: #17d1ac; */
+}
+
+.aboutText h2 {
+	font-size: 3rem;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.aboutText h3 {
+	font-size: 2rem;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.aboutText h1,
+.aboutText h2,
+.aboutText h2 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.aboutText p {
+	font-size: 1.2rem;
+	line-height: 1.5em;
+	color: rgba(251, 251, 251, 0.9);
+}
+
+.aboutText button {
+	width: 180px;
+	height: 40px;
+	font-family: calibre;
+	font-size: 16px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	background-color: #ffc401;
+	/* background-color: #17d1ac; */
+}
+
+.aboutText button:hover {
+	background-color: #ffffff;
+	transition: all ease 0.3s;
+}
+
+@media (max-width: 1190px) {
+	.aboutModel {
+		height: 400px;
+	}
+}
+
+@media (max-width: 970px) {
+	.aboutModel {
+		display: none;
+	}
+
+	.aboutText {
+		width: 90%;
+	}
+
+	.aboutText h1 {
+		font-size: 4rem;
+	}
+}

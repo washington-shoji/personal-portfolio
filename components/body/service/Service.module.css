@@ -1,0 +1,114 @@
+.headingService {
+	text-align: center;
+	margin: 20px 0px;
+	padding: 0px 0px;
+}
+
+.headingService h1 {
+	color: #ffffff;
+	font-family: calibre;
+	font-size: 3rem;
+	margin: 0px;
+	padding: 0px;
+}
+
+.headingService p {
+	/* color: rgba(249, 249, 249, 0.3); */
+	color: rgba(251, 251, 251, 0.9);
+	font-family: calibre;
+	font-size: 1.4rem;
+	margin: 0px;
+	padding: 18px;
+}
+
+.serviceBoXContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.serviceBox {
+	background-color: #2b2b2b;
+	width: 350px;
+	height: 500px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+.serviceBox:hover {
+	transform: translateY(-10px);
+	transition: all ease 0.3s;
+}
+
+.serviceBoxImageContainer {
+	width: 100%;
+	height: 70%;
+}
+.serviceType {
+	font-family: calibre;
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #151515;
+	padding: 10px 15px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.serviceBoxImage {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.serviceBoxText {
+	width: 100%;
+	height: 30%;
+	background-color: #1e1e1e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.serviceBoxText a {
+	margin: 0px;
+	color: #ffffff;
+	font-size: 1.1rem;
+	display: block;
+	display: -webkit-box;
+	max-width: 80%;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.serviceBoxText a:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1190px) {
+	.serviceBoXContainer {
+		flex-wrap: wrap;
+	}
+	.serviceBox {
+		flex-grow: 1;
+	}
+	.serviceBoxText {
+		text-align: center;
+	}
+}
+
+@media (max-width: 400px) {
+	.serviceBox {
+		width: 100%;
+		height: 400px;
+	}
+}

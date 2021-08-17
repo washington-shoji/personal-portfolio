@@ -1,0 +1,190 @@
+.contactForm {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactForm form {
+	display: flex;
+	width: 70%;
+	height: 60vh;
+	background-color: #1a1a1a1a;
+	box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+.contactFormLeft {
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contactFormRight {
+	width: 60%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-left: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contactFormLeftHeading {
+	font-family: calibre;
+	color: var(--text-primary);
+	font-size: 3rem;
+	letter-spacing: 2px;
+	font-size: 400;
+}
+
+.contactFormLeftHeading span {
+	border-bottom: 3px solid #ffffff;
+}
+
+.contactFormLeftHeadingSpan {
+}
+
+.contactFormName,
+.contactFormEmail {
+	display: flex;
+	flex-direction: column;
+	font-family: calibre;
+}
+
+.contactFormName span,
+.contactFormEmail span {
+	color: #bfbfbf;
+	font-size: 22px;
+}
+
+.contactFormName input,
+.contactFormEmail input {
+	height: 30px;
+	width: 250px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	border-bottom: 1px solid #929292;
+	color: #ffffff;
+	margin: 10px 0px;
+}
+
+.contactFormName input::placeholder,
+.contactFormEmail input::placeholder {
+	opacity: 0.5;
+	letter-spacing: 1px;
+}
+
+.contactFormEmail input:focus,
+.contactFormName input:focus {
+	border-bottom: 1px solid #ffc401;
+	transition: all ease 0.5s;
+}
+
+.contactMessage {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.contactMessage span {
+	font-size: 18px;
+	color: #bfbfbf;
+	font-family: calibre;
+}
+
+.contactFormRight textarea {
+	width: 100% !important;
+	height: 320px !important;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	box-sizing: border-box;
+	color: #ebebeb;
+	font-size: 16px;
+}
+
+.contactFormRight textarea::placeholder {
+	color: #ebebeb;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-family: calibri;
+}
+
+.contactFormRight button {
+	width: 100%;
+	height: 50px;
+	background-color: #ffc401;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	color: #1b1b1b;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+@media (max-width: 1190px) {
+	.contactForm form {
+		width: 95% !important;
+	}
+}
+
+@media (max-width: 970px) {
+}
+
+@media (max-width: 900px) {
+	.contactForm {
+		padding: 20px;
+		height: auto;
+		box-sizing: border-box;
+	}
+
+	.contactForm form {
+		flex-direction: column;
+		height: auto;
+		padding: 20px;
+		width: 90% !important;
+	}
+
+	.contactForm form h1 {
+		margin: 5px 0px;
+	}
+
+	.contactFormLeft,
+	.contactFormRight {
+		width: 100%;
+		border: none;
+	}
+
+	.contactFormName,
+	.contactFormEmail {
+		width: 100%;
+	}
+
+	.contactFormName input,
+	.contactFormEmail input {
+		width: 100%;
+		border: none;
+		background-color: #262626 !important;
+		padding: 10px;
+		box-sizing: border-box;
+		height: 40px;
+	}
+
+	.contactFormRight textarea {
+		background-color: #262626 !important;
+		margin: 10px 0px;
+		padding: 10px;
+		height: 200px !important;
+		width: 100% !important;
+	}
+
+	.contactMessage {
+		margin: 0px;
+	}
+}

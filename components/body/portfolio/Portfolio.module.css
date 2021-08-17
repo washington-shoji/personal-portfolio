@@ -1,0 +1,107 @@
+.portfolioHeading {
+	font-family: calibre;
+	font-size: 1.7rem;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 400;
+	padding: 10px 20px;
+	background-color: #292929;
+	letter-spacing: 2px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolioBoxContainer {
+	width: 90%;
+	height: 70vh;
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	z-index: 0;
+}
+
+.portfolioBox {
+	background-color: #1f1f1f;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+
+.textOverlay {
+	font-family: calibre;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* background-color: rgba(23, 209, 172, 0.89); */
+	/* background-color: rgba(0, 0, 0, 0.7); */
+	z-index: 1;
+	display: flex;
+}
+
+.textOverlay h1,
+.textOverlay p {
+	/* color: #ffffff; */
+	color: transparent;
+}
+
+.textOverlay h1 {
+	font-size: 2.2rem;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 2px;
+}
+
+.textOverlay h1 {
+	font-size: 1.2rem;
+	margin: 0px;
+}
+
+.portfolioBox:hover {
+	display: flex;
+}
+.textOverlay:hover {
+	display: flex;
+}
+
+.textOverlay:hover h1,
+.textOverlay:hover p {
+	color: #ffffff;
+}
+
+.portfolioBoxImage {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.portfolioBoxImage:hover {
+	display: none !important;
+}
+
+@media (max-width: 970px) {
+	.portfolioBoxContainer {
+		width: 100%;
+	}
+}
+@media (max-width: 900px) {
+	.portfolioBoxContainer {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		height: auto;
+		gap: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.portfolioBoxContainer {
+		grid-template-columns: 1fr;
+	}
+}

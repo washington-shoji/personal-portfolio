@@ -1,32 +1,34 @@
-export interface ProjectData {
-        id: number,
-        title: string,
-        about: string,
-        tags: Array<string>,
-        demo: string,
-        github: string,
-        image: string,
+export interface Project {
+    id: number;
+    title: string;
+    description: string;
+    image: string
+
 }
 
-export const ProjectData: Array<ProjectData> = [
+export const projectData: Array<Project> = [
     {
-        id: 1,
-        title: 'Personal Portfolio',
-        about: 'This project is built with Typescript using Next front-end framework and Firebase as backend cloud storage. Its primary purpose is to showcase my other projects on the projects page.',
-        tags: ['TypeScript', 'Next.js', 'Firebase'],
-        demo: 'https://github.com/',
-        github: 'https://github.com/',
-        image: 'https://cdn.dribbble.com/users/2564256/screenshots/14708155/media/6c2a1463d6ec36fbcd24414495a1fc97.png',
-
+    id: 1,
+    title: 'Project 1',
+    description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
+    It has roots in a piece of classical Latin literature from 45 BC,
+    making it over 2000 years old.`,
+    image: require('/public/temp.jpg')
     },
     {
-        id: 2,
-        title: 'Personal Portfolio',
-        about: 'This project is built with Typescript using Next front-end framework and Firebase as backend cloud storage. Its primary purpose is to showcase my other projects on the projects page.',
-        tags: ['TypeScript', 'Next.js', 'Firebase'],
-        demo: 'https://github.com/',
-        github: 'https://github.com/',
-        image: 'https://cdn.dribbble.com/users/2564256/screenshots/14708155/media/6c2a1463d6ec36fbcd24414495a1fc97.png',
-
+    id: 2,
+    title: 'Project 2',
+    description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
+    It has roots in a piece of classical Latin literature from 45 BC,
+    making it over 2000 years old.`,
+    image: require('/public/temp.jpg')
+    },
+    {
+    id: 3,
+    title: 'Project 3',
+    description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
+    It has roots in a piece of classical Latin literature from 45 BC,
+    making it over 2000 years old.`,
+    image: require('/public/temp.jpg')
     },
 ]
