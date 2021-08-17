@@ -8,7 +8,7 @@ import ServiceCard from './ServiceCard';
 const Service = () => {
 	const projects: Array<Project> = projectData;
 	return (
-		<>
+		<section className={styles.services}>
 			<div className={styles.headingService}>
 				<h1>Projects</h1>
 				<p>
@@ -21,7 +21,7 @@ const Service = () => {
 					return <ServiceCard key={project.id} project={project} />;
 				})}
 			</div>
-		</>
+		</section>
 	);
 };
 

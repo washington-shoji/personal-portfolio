@@ -1,8 +1,8 @@
 .social {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-	position: absolute;
+	/*position: absolute;*/
 	left: 50px;
 	bottom: 20px;
 }

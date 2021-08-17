@@ -57,16 +57,16 @@
 	}
 }
 
-@media (max-width: 970px) {
-	.aboutModel {
-		display: none;
-	}
+/*@media (max-width: 970px) {*/
+/*	.aboutModel {*/
+/*		display: none;*/
+/*	}*/
 
-	.aboutText {
-		width: 90%;
-	}
+/*	.aboutText {*/
+/*		width: 90%;*/
+/*	}*/
 
-	.aboutText h1 {
-		font-size: 4rem;
-	}
-}
+/*	.aboutText h1 {*/
+/*		font-size: 4rem;*/
+/*	}*/
+/*}*/

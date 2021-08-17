@@ -6,7 +6,7 @@ config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatic
 
 import '../styles/globals.css';
 import type {AppProps} from 'next/app';
-import Layout from '../components/layout/Layout';
+import Layout from '../components/Layout/Layout';
 
 library.add(fab); // Add access to fontawesome brand icons to entire app
 
