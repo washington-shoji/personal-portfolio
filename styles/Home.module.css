@@ -1,11 +1,9 @@
-.main {
+/* .main {
 	width: 100%;
 	height: calc(100vh - 70px);
 	box-sizing: border-box;
 	background-color: #edf1fd;
 	position: relative;
-	/* background-image: url('../assets/images/bg.png'); */
-	/*Change the background image later*/
 	background-repeat: no-repeat;
 	background-size: 1330px;
 	background-position: right bottom;
@@ -73,7 +71,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+} */
 
 /*@media (max-width: 1190px) {*/
 /*	.main {*/

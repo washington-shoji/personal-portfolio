@@ -8,12 +8,12 @@ import ContactForm from './../components/body/contactForm/ContactForm';
 
 const Home: NextPage = () => {
 	return (
-		<div className={styles.container}>
-				<Hero />
-				<About />
-				<Service />
-				<ContactButton />
-				<ContactForm />
+		<div>
+			<Hero />
+			<About />
+			<Service />
+			<ContactButton />
+			<ContactForm />
 		</div>
 	);
 };

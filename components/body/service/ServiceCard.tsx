@@ -28,8 +28,12 @@ const ServiceCard: FC<Props> = ({project}) => {
 					objectFit={'cover'}
 				/> */}
 			</div>
+			<div className={styles.serviceBoxButton}>
+				<a href='#'>Live demo</a>
+				<a href='#'>Github</a>
+			</div>
 			<div className={styles.serviceBoxText}>
-				<a href='#'>{project.description}</a>
+				<p>{project.description}</p>
 			</div>
 		</div>
 	);

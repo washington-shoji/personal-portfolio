@@ -1,0 +1,25 @@
+.nav nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: calibre;
+	font-weight: 600;
+	letter-spacing: 2px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	background-color: #f4f7ff;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+	z-index: 3;
+}
+
+.logo {
+	font-size: 25px;
+	font-weight: bold;
+	color: #292929;
+	font-family: Poppins;
+}
