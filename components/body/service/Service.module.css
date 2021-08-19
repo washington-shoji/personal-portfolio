@@ -1,7 +1,6 @@
-.services{
-	background: lightblue;
-	padding: 50px
-
+.services {
+	background: #f4f4f4;
+	padding: 50px;
 }
 
 /*.headingService {*/
@@ -11,11 +10,14 @@
 /*}*/
 
 .headingService h1 {
-	color: #ffffff;
+	color: #ffc401;
 	font-family: calibre;
 	font-size: 40px;
-	margin: 0px
+	margin: 0px;
+}
 
+.headingService p {
+	font-family: calibre;
 }
 
 /*.headingService p {*/

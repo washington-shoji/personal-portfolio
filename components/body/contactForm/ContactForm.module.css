@@ -8,7 +8,6 @@
 	background-color: #1a1a1a1a;
 }
 
-
 .contactForm {
 	width: 100%;
 	display: flex;
@@ -66,7 +65,7 @@
 	display: flex;
 	flex-direction: column;
 	font-family: calibre;
-	width: 100%
+	width: 100%;
 }
 
 .contactFormName span,
@@ -114,8 +113,8 @@
 }
 
 .contactFormRight textarea {
-	width: 100% !important;
-	height: 320px !important;
+	width: 100%;
+	height: 320px;
 	border: none;
 	outline: none;
 	background-color: transparent;
@@ -138,6 +137,7 @@
 .contactFormRight button {
 	width: 100%;
 	height: 50px;
+	min-height: 32px;
 	background-color: #ffc401;
 	font-weight: bold;
 	outline: none;
@@ -174,7 +174,6 @@
 
 	.contactForm form h1 {
 		margin: 5px 0px;
-
 	}
 
 	.contactFormLeft,
@@ -183,12 +182,12 @@
 		border: none;
 	}
 
-	.contactFormRight{
-		padding: 0 20px 20px 20px
+	.contactFormRight {
+		padding: 0 20px 20px 20px;
 	}
 
-	.contactFormLeft{
-		padding: 20px 20px 10px 20px
+	.contactFormLeft {
+		padding: 20px 20px 10px 20px;
 	}
 
 	.contactFormName,
