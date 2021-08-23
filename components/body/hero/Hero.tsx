@@ -16,9 +16,25 @@ const Hero = () => {
 						a passionate self-taught full-stack web and mobile developer who
 						strives to help solve problems with my technical skills.
 					</p>
-					<a href='#' className={styles.cvButton}>
-						View My Resume
-					</a>
+					<div className={styles.buttonContainer}>
+						<a
+							className={styles.cvButton}
+							href='https://personal-resume-flutter.web.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							View Resume
+						</a>
+						<a
+							className={styles.cvButton}
+							href='https://drive.google.com/file/d/1FovIq402IgoxLuix84ZmuzjIBkFXmDEQ/view?usp=sharing'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Download Resume
+						</a>
+					</div>
+
 					<Social />
 				</div>
 			</div>

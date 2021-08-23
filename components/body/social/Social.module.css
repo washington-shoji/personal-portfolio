@@ -8,13 +8,12 @@
 }
 
 .social a {
-	margin: 6px 12px;
+	margin: 6px 0px;
 	color: rgba(18, 17, 17, 0.4);
-	font-size: 18px;
+	font-size: 28px;
 }
 
 .icon:hover {
-	/* color: #17d1ac; */
 	color: #ffc401;
 	transition: all ease 0.5s;
 }
@@ -22,6 +21,6 @@
 @media (max-width: 600px) {
 	.social {
 		left: 30px;
-		transform: translate(-30px);
+		/* transform: translate(-30px); */
 	}
 }

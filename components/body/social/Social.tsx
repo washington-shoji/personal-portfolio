@@ -6,15 +6,16 @@ import styles from './Social.module.css';
 const Social = () => {
 	return (
 		<div className={styles.social}>
-			<a href='#'>
+			<a
+				href='https://www.linkedin.com/in/washington-shoji-77171bb5/'
+				target='_blank'
+				rel='noopener noreferrer'
+			>
 				<FontAwesomeIcon className={styles.icon} icon={['fab', 'linkedin']} />
 			</a>
-			<a href='#'>
+			{/* <a href='#'>
 				<FontAwesomeIcon className={styles.icon} icon={['fab', 'twitter']} />
-			</a>
-			<a href='#'>
-				<FontAwesomeIcon className={styles.icon} icon={['fab', 'youtube']} />
-			</a>
+			</a> */}
 		</div>
 	);
 };

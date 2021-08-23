@@ -29,8 +29,20 @@ const ServiceCard: FC<Props> = ({project}) => {
 				/> */}
 			</div>
 			<div className={styles.serviceBoxButton}>
-				<a href='#'>Live demo</a>
-				<a href='#'>Github</a>
+				<a
+					href={`${project.demoUrl}`}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Demo
+				</a>
+				<a
+					href={`${project.githubUrl}`}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Github
+				</a>
 			</div>
 			<div className={styles.serviceBoxText}>
 				<p>{project.description}</p>

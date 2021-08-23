@@ -88,7 +88,7 @@
 .serviceBoxText p {
 	margin: 0px;
 	color: #ffffff;
-	font-size: 1.1rem;
+	font-size: 0.8rem;
 	display: block;
 	display: -webkit-box;
 	max-width: 80%;
@@ -125,21 +125,21 @@
 	background-color: #ffc401;
 }
 
-/*@media (max-width: 1190px) {*/
-/*	.serviceBoXContainer {*/
-/*		flex-wrap: wrap;*/
-/*	}*/
-/*	.serviceBox {*/
-/*		flex-grow: 1;*/
-/*	}*/
-/*	.serviceBoxText {*/
-/*		text-align: center;*/
-/*	}*/
-/*}*/
+@media (max-width: 1190px) {
+	.serviceBoXContainer {
+		flex-wrap: wrap;
+	}
+	.serviceBox {
+		flex-grow: 1;
+	}
+	.serviceBoxText {
+		text-align: center;
+	}
+}
 
-/*@media (max-width: 400px) {*/
-/*	.serviceBox {*/
-/*		width: 100%;*/
-/*		height: 400px;*/
-/*	}*/
-/*}*/
+@media (max-width: 400px) {
+	.serviceBox {
+		width: 100%;
+		height: 400px;
+	}
+}

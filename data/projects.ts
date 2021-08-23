@@ -2,33 +2,35 @@ export interface Project {
     id: number;
     title: string;
     description: string;
-    image: string
+    image: string;
+    demoUrl: string;
+    githubUrl: string;
 
 }
 
 export const projectData: Array<Project> = [
     {
     id: 1,
-    title: 'Project 1',
-    description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
-    It has roots in a piece of classical Latin literature from 45 BC,
-    making it over 2000 years old.`,
-    image: '/temp.jpg'
+    title: 'M.E.R.N app',
+    description: `A Mongo, Express, React, Node (MERN) stack Web app that creates and manages events, it is developed using JS and Redux for state management.`,
+    image: '/evenx.png',
+    demoUrl: 'https://eventx-mern.herokuapp.com/',
+    githubUrl: 'https://github.com/washington-shoji/eventx'
     },
     {
     id: 2,
-    title: 'Project 2',
-    description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
-    It has roots in a piece of classical Latin literature from 45 BC,
-    making it over 2000 years old.`,
-    image: '/temp.jpg'
+    title: 'Next.js App',
+    description: `This very own live web app portfolio. This app is built with Next.js, TypeScript, HTML, CSS and, fully deployed in Firebase.`,
+    image: '/portfolio.png',
+    demoUrl: 'https://washingtonshoji.live/',
+    githubUrl: 'https://github.com/washington-shoji/personal-portfolio'
     },
     {
     id: 3,
-    title: 'Project 3',
-    description: `Contrary to popular belief, Lorem Ipsum is not simply random text.
-    It has roots in a piece of classical Latin literature from 45 BC,
-    making it over 2000 years old.`,
-    image: '/temp.jpg'
+    title: 'Flutter App',
+    description: `A Flutter food recipes app where users can use its features as a shopping list. The app handles Create, Update, Delete (CRUD) operations.`,
+    image: '/recipe.png',
+    demoUrl: 'https://washingtonshoji.live/',
+    githubUrl: 'https://github.com/washington-shoji/flutter_food_app_recipe'
     },
 ]
