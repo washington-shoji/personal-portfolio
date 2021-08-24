@@ -17,14 +17,14 @@ const Hero = () => {
 						strives to help solve problems with my technical skills.
 					</p>
 					<div className={styles.buttonContainer}>
-						<a
+						{/* <a
 							className={styles.cvButton}
 							href='https://personal-resume-flutter.web.app/'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
 							View Resume
-						</a>
+						</a> */}
 						<a
 							className={styles.cvButton}
 							href='https://drive.google.com/file/d/1FovIq402IgoxLuix84ZmuzjIBkFXmDEQ/view?usp=sharing'
@@ -35,7 +35,7 @@ const Hero = () => {
 						</a>
 					</div>
 
-					<Social />
+					{/* <Social /> */}
 				</div>
 			</div>
 			<Arrow />

@@ -30,7 +30,7 @@ export const projectData: Array<Project> = [
     title: 'Flutter App',
     description: `A Flutter food recipes app where users can use its features as a shopping list. The app handles Create, Update, Delete (CRUD) operations.`,
     image: '/recipe.png',
-    demoUrl: 'https://washingtonshoji.live/',
+    demoUrl: 'https://flutter-recipe-proto.web.app/',
     githubUrl: 'https://github.com/washington-shoji/flutter_food_app_recipe'
     },
 ]
